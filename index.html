@@ -1,51 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>My first styles</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map"
-    />
+    <title>Класс</title>
   </head>
   <body>
-    <section>
-      <p>You can style an element using:</p>
+    <main>
+      <p>Изученные CSS свойства</p>
       <ul>
-        <li>'style' attribute</li>
-        <li>'style' tag</li>
-        <li>Using separate file with <code>.css</code>extention</li>
+        <li>width - ширина блока, не применяется для инлайновых элементов</li>
+        <li>height - высота блока, не применяется для инлайновых элементов</li>
+        <li>display - определяет, как элемент должен быть показан в документе</li>
+        <li>color - задает цвет текста</li>
+        <li>background-color - задает цвет фона</li>
+        <li>font-size - задает размер шрифта</li>
+        <li>margin - задает наружные отступы для блока</li>
       </ul>
-    </section>
-    <div class="checkbox"></div>
-    <section style="background-color: yellow">
-      <p>CSS properties "width" and "height" do not work for inline elements</p>
-      <p style="background-color: red; color: white">
-        Inheritance in CSS is the mechanism by which the property values of a
-        parent element are passed on to its children elements
+      <p>
+        Каждый браузер имеет стили по умолчанию. Хорошая практика эти стили обнулять или
+        нормализовать. Это позволит добиться одиннакового отображения страницы во всех браузерах
       </p>
-    </section>
+    </main>
     <style>
-      section:first-of-type {
+      body {
+      font-size: 24px;
+      }
+      p {
         color: green;
       }
-      ul {
-        font-size: 22px;
-      }
-      ul li:nth-child(3) {
-        color: orange;
-      }
-      section:last-of-type p:last-of-type {
-        background-color: red;
-        color: white;
+      li {
+        color: orange
       }
     </style>
   </body>
