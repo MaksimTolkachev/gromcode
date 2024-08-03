@@ -10,11 +10,30 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="selectors.css" />
+    <style>
+      img[alt="Pollution"] {
+        border: 5px dashed red;
+      }
+      img[src$="jpg"] {
+        margin-left: 50px;
+      }
+      li[data-description~="even"] {
+        background-color: grey;
+      }
+      li[data-description*="even"] {
+        font-size: 24px;
+      }
+      a[href^='https://']
+      {
+        color: green;
+      }
+      span[lang^="en"] {
+        font-size: 28px;
+      }
+    </style>
   </head>
-
   <body>
     <h1 class="page-header">Operators in attribute selectors</h1>
-
     <section class="gallery">
       <h2>Images gallery</h2>
       <img
@@ -68,7 +87,6 @@
         </li>
       </ul>
     </article>
-
     <article>
       <h2 class="page-header">Веб браузеры</h2>
       <p>
@@ -86,26 +104,5 @@
         <span lang="en">Front-End</span> разработчику жизнь;)
       </p>
     </article>
-    <style>
-      img[alt="Pollution"] {
-        border: 5px dashed red;
-      }
-      img[src$="jpg"] {
-        margin-left: 50px;
-      }
-      li[data-description~="even"] {
-        background-color: grey;
-      }
-      li[data-description*="even"] {
-        font-size: 24px;
-      }
-      a[href^='https://']
-      {
-        color: green;
-      }
-      span[lang^="en"] {
-        font-size: 28px;
-      }
-    </style>
   </body>
 </html>
