@@ -21,9 +21,9 @@ footer {
 }
 .red {
   background-color: red;
-  float: left;
+  float: right;
 }
 .green {
 background-color: green;
-float: right;
+float: left;
 }
