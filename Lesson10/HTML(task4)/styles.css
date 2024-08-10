@@ -1,7 +1,6 @@
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
 }
 .article {
   margin: 8px;
