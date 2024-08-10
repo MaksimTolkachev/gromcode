@@ -6,8 +6,7 @@ header {
   flex-wrap: wrap;
 }
 .article {
-  min-width: 300px;
-  flex: 300px;
+  flex: 1 0 300px;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
