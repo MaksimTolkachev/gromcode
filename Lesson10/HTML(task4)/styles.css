@@ -1,12 +1,12 @@
 .articles-list {
   display: flex;
-  flex-grow: 1;
   flex-wrap: wrap;
-  flex-basis: 300px;
   text-align: center;
 }
 .article {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
+  flex-basis: 300px;
+  flex-grow: 1;
 }
