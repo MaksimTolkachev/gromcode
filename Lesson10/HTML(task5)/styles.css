@@ -1,13 +1,17 @@
  * {
   box-sizing: border-box;
  }
-
- .container {
-  display: flex;
-  flex-wrap: wrap;
- }
-
- .block {
+div > div {
+  width: 100px;
   height: 100px;
-  flex: 1 0 100px;
- }
+  background: coral;
+}
+div > div:nth-child(1) {
+    display: none;
+}
+div > div:nth-child(2) {
+visibility: hidden;
+}
+div > div:nth-child(3) {
+
+}
