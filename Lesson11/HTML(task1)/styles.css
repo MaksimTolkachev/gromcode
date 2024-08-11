@@ -1,13 +1,14 @@
-.horizontal {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+ * {
+  box-sizing: border-box;
+ }
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
-.vertical {
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+div > div:nth-child(1) {
+    display: none;
+}
+div > div:nth-child(2) {
+visibility: hidden;
 }
