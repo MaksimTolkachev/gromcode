@@ -4,8 +4,8 @@
 }
 h1 {
   font-size: 74px;
-  width: 50vw;
-  text-align: center;
+  width: 50%;
+  margin: auto;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
