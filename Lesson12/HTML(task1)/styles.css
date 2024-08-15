@@ -1,8 +1,10 @@
 * {
   box-sizing: border-box;
-  margin: 32px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+}
+section {
+    margin: 32px;
 }
 .title {
   word-spacing: 20px;
