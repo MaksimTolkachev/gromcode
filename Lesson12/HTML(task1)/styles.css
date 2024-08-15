@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.title {
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text {
+  line-height: 28px;
+}
+span {
+  margin: 0;
+}
+.firstWord {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}
+.translate {
+  color: grey;
+}
