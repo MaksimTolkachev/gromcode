@@ -1,0 +1,18 @@
+* {
+  box-sizing: content-box;
+}
+.container {
+}
+.list {
+  font-size: 2em;
+  list-style: none;
+}
+.first {
+  text-decoration: overline 1px solid red;
+}
+.second {
+  text-decoration: line-through;
+}
+.third {
+  text-decoration: underline 1px solid green;
+}
