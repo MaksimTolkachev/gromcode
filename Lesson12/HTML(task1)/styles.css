@@ -22,6 +22,9 @@ span {
   opacity: 0.8;
   text-decoration: underline;
 }
+em {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
