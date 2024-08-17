@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+}
+li {
+  font-size: 24px;
+  line-height: 32px;
+  padding: 8px;
+  color: #f39;
+  list-style: none;
+}
