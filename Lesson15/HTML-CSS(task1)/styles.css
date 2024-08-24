@@ -3,6 +3,8 @@
 }
 .image-container {
   margin: 50px 0px;
+  display: block;
+  min-width: 100%;
   text-align: center;
 }
 .big-img {
@@ -15,12 +17,6 @@
   margin: 16px;
   box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
-.title {
-  margin: 0;
-  line-height: 30px;
-  text-align: center;
-  text-transform: lowercase;
-}
 .first-img {
 filter: opacity(50%);
 }
@@ -29,4 +25,10 @@ filter: blur(4px);
 }
 .third-img {
 filter: invert(100%);
+}
+.title {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+  text-transform: lowercase;
 }
