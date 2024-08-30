@@ -5,10 +5,12 @@
   margin: 50px 0px;
   display: block;
   min-width: 100%;
-  text-align: center;
 }
 .big-img {
+  display: block;
+  background-size: cover;
   border-radius: 20px;
+  margin: auto;
 }
 .gallery {
   display: flex;
