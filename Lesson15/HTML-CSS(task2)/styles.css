@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+.bunny-video {
+  display: block;
+  margin: 200px auto 0px auto;
+}
