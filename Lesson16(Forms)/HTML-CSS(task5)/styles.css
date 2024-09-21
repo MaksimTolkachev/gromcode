@@ -8,9 +8,6 @@ body {
   height: 100%;
 }
 .page {
-
-  /* display: flex; */
-  text-align: center;
 }
 .login-form {
   position: absolute;
@@ -24,6 +21,7 @@ body {
   margin: -150px;
 }
 .form-title {
+  text-align: center;
   text-transform: uppercase;
 }
 .form-control {
