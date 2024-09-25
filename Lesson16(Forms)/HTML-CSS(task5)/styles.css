@@ -26,6 +26,7 @@ body {
   text-transform: uppercase;
 }
 .form-control {
+  margin-bottom: 8px;
 }
 .form-label {
   display: inline-block;
@@ -36,7 +37,6 @@ body {
   height: 32px;
   border: 1px solid #808080;
   padding: 4px;
-  margin-bottom: 8px;
   border-radius: 4px;
   outline: none;
 }
