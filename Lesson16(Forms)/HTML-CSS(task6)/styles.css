@@ -1,16 +1,13 @@
 *{
   box-sizing: border-box;
 }
-
 .form {
  margin: 32px;
 }
-
 .input {
   display: block;
   margin: 8px;
 }
-
 .languages {
   display: flex;
 }
