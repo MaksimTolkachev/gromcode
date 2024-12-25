@@ -14,23 +14,41 @@
 
   <body>
     <div class="wrapper">
-      <form action="" class="form">
-        <input name="primaryLanguage" class="input input-text" type="text" value="HTML" disabled/>
+      <form action="#" class="form">
+        <div>
+          <input name="primaryLanguage" class="input input-text" type="text" value="HTML" disabled/>
+        </div>
         <div class="wrap-check">
         <input name="agree" class="input input-check" type="checkbox" unchecked/>
         <input name="like" class="input input-check" type="checkbox" checked/>
         </div>
-        <input name="favouriteColor" class="input input-color" type="color" value="#ff7f50"/>
-        <input name="birthDate" class="input input-date" type="date" value="2021-01-02"/>
-        <input name="birthTime" class="input input-localDate" type="datetime-local" value="2024-10-04T13:02"/>
-        <input name="email" class="input input-email" type="email" placeholder="example@domain.com" required/>
-        <input name="avatar" class="input input-file" type="file" />
-        <input name="startLearning" class="input input-month" type="month" value="2020-01"/>
+        <div>
+          <input name="favouriteColor" class="input input-color" type="color" value="#ff7f50"/>
+        </div>
+        <div>
+          <input name="birthDate" class="input input-date" type="date" value="2021-01-02"/>
+        </div>
+        <div>
+          <input name="birthTime" class="input input-localDate" type="datetime-local" value="2024-10-04T13:02"/>
+        </div>
+        <div>
+           <input name="email" class="input input-email" type="email" placeholder="example@domain.com" required/>
+        </div>
+        <div>
+          <input name="avatar" class="input input-file" type="file" />
+        </div>
+        <div>
+          <input name="startLearning" class="input input-month" type="month" value="2020-01"/>
+        </div> 
+        <div>
         <input name="favouriteNumber" class="input input-number" type="number" value="17"/>
-        <textarea class="input textarea" name="story" id="#" rows="5" cols="30" placeholder="A long time ago..." ></textarea>
-
-        <input name="password" class="input input-password" type="password" value="secret"/>
-
+        </div>
+        <div>
+          <textarea class="input textarea" name="story" id="#" rows="5" cols="30" placeholder="A long time ago..." ></textarea>
+        </div>
+        <div>
+          <input name="password" class="input input-password" type="password" value="secret"/>
+        </div>
         <div class="languages">
           <label>
             <input name="language" class="input input-radio" type="radio" value="html"/>HTML
@@ -42,19 +60,31 @@
             <input name="language" class="input input-radio" type="radio" value="javascript"/>JavaScript
           </label>
         </div>
-        <input name="learningProgress" class="input input-range" type="range" value="30"/>
-        <select class="input input-select" name="framework" id="#">
+        <div>
+          <input name="learningProgress" class="input input-range" type="range" value="30"/>
+        </div>
+        <div>
+          <select class="input input-select" name="framework" id="#">
           <option value="react">React</option>
           <option value="jquery" selected>jQuery</option>
           <option value="bootstrap">Bootstrap</option>
         </select>
-
-        
-        <input name="search" class="input input-search" type="search" placeholder="Type first letters..."/>
-        <input name="lunchEnd" class="input input-time" type="time" value="14:01"/>
-        <input name="website" class="input input-url" type="url" placeholder="https://website.com" required />
-        <input name="birthWeek" class="input input-week" type="week" value="2021-W51"/>
-        <input name="button" class="input input-button" type="submit" value="Save"/>
+        </div>
+        <div>
+         <input name="search" class="input input-search" type="search" placeholder="Type first letters..."/>
+        </div>
+        <div>
+         <input name="lunchEnd" class="input input-time" type="time" value="14:01"/>
+        </div>
+        <div>
+         <input name="website" class="input input-url" type="url" placeholder="https://website.com" required />
+        </div>
+        <div>
+          <input name="birthWeek" class="input input-week" type="week" value="2021-W51"/>
+        </div>
+        <div>
+         <input name="button" class="input input-button" type="submit" value="Save"/>
+        </div>        
       </form>
     </div>
   </body>
