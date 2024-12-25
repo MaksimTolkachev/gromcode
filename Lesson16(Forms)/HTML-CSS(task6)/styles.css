@@ -4,14 +4,10 @@
 .form {
  margin: 32px;
 }
-.input {
-  display: block;
+div {
   margin: 8px;
 }
-.languages {
-  display: flex;
-}
-label{
-  display: flex;
-  align-items: center;
+
+.input {
+  margin: 8px;
 }
