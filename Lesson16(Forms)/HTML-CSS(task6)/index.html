@@ -52,15 +52,14 @@
           <input name="password" class="input input-password" type="password" value="secret"/>
         </div>
         <div class="languages">
-          <label>
-            <input name="language" class="input input-radio" type="radio" value="html"/>HTML
-          </label>
-          <label>
-            <input name="language" class="input input-radio" type="radio" value="css"checked/>CSS
-          </label>
-          <label>
-            <input name="language" class="input input-radio" type="radio" value="javascript"/>JavaScript
-          </label>
+          <input id="html" name="language" class="input input-radio" type="radio" value="html"/>
+          <label for="html">HTML</label>
+
+          <input id="css" name="language" class="input input-radio" type="radio" value="css"checked/>
+          <label for="css">CSS</label>
+
+          <input id="js" name="language" class="input input-radio" type="radio" value="javascript"/>
+          <label for="js">JavaScript</label>
         </div>
         <div>
           <input name="learningProgress" class="input input-range" type="range" value="30"/>
